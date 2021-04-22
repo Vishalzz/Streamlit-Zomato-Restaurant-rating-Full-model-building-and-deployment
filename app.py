@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 matplotlib.use('Agg')
 
 
-from PIL import Image
+
 
 
 def main():
@@ -24,8 +24,7 @@ def main():
 	"""
 	st.markdown(html_temp,unsafe_allow_html=True)
 	st.text("")
-	image = Image.open('Zomato_1.jpg')
-	st.image(image,use_column_width=True)
+
 
 	pickle_in = open("model.pkl","rb")
 	regressor=pickle.load(pickle_in)
