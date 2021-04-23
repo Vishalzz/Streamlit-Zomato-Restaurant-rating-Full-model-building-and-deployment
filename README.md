@@ -38,7 +38,7 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (f
 
 ### Project Structure
 This project has four major parts :
-1. **model.ipynb **- This contains code fot our Machine Learning model to predict restaurant rating based on  data in 'zomato.csv' file.
+1. **model.ipynb**- This contains code fot our Machine Learning model to predict restaurant rating based on  data in 'zomato.csv' file.
 2. **ZomatoRating_2.py** - This contain streamlit API that contains all the process,detailed analysis,model building phases(done in model.ipynb) and predict rating API.
 This API contains :
 ##### • Data Preparation
@@ -49,8 +49,8 @@ This API contains :
 ##### • About us.
 You can select any one of the option at a time to see the result.
 
-3. **app.py **- This contains only predict restaurant rating API  that receives restaurant details through GUI or API calls, computes the precited rating based on our model and returns it.
-4. **templates **- This folder contains the HTML template to allow user to enter restaurant detail and displays the predicted restaurant rating.
+3. **app.py**- This contains only predict restaurant rating API  that receives restaurant details through GUI or API calls, computes the precited rating based on our model and returns it.
+4. **templates**- This folder contains the HTML template to allow user to enter restaurant detail and displays the predicted restaurant rating.
 
 ### Running the project
 1. Ensure that you are in the project home directory. Run below command to start streamlit API.
