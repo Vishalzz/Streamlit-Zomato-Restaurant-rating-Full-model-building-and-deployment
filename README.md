@@ -46,12 +46,12 @@ This project has four major parts :
 ### Running the project
 1. Ensure that you are in the project home directory. Run below command to start streamlit API.
 
-###### For detailed "model building and prediction" API
+#### For detailed "model building and prediction" API
 ```
 streamlit run ZomatoRating_2.py --server.maxUploadSize=1028
 ```
 
-###### For "predicton" API only
+#### For "predicton" API only
 ```
 streamlit run app.py
 ```
