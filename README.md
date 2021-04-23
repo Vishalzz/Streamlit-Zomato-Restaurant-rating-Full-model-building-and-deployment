@@ -48,12 +48,12 @@ This project has four major parts :
 ### Running the project
 1. Ensure that you are in the project home directory. Run below command to start streamlit API.
 
-For detailed model building and prediction API
+For detailed "model building and prediction" API
 ```
 streamlit run ZomatoRating_2.py --server.maxUploadSize=1028
 ```
 
-For predicton API only
+For "predicton" API only
 ```
 streamlit run app.py
 ```
@@ -62,19 +62,14 @@ By default, flask will run on port 8501.
 
 2. Navigate to URL http://localhost:8501
 
-You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
+You should be able to view the homepage.
 
-Enter valid numerical values in all 3 input boxes and hit Predict.
+Select all the option given in dropdown-->enter valid numerical values in votes and cost input boxes-->hit Predict.
 
-If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
+If everything goes well, you should  be able to see the restaurant rating.
+![image](https://user-images.githubusercontent.com/67735416/115828015-bd831c00-a42a-11eb-8a85-4cf19d7fc930.png)
 
-4. You can also send direct POST requests to FLask API using Python's inbuilt request module
-Run the beow command to send the request with some pre-popuated values -
-```
-python request.py
-```
+
 
 
 
