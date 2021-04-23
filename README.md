@@ -35,7 +35,7 @@ Acknowledgements The data scraped was entirely for educational purposes only. No
        
 
 ### Prerequisites
-You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
+You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (for API) installed.
 
 ### Project Structure
 This project has four major parts :
@@ -45,11 +45,19 @@ This project has four major parts :
 4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 
 ### Running the project
-1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
+1. Ensure that you are in the project home directory. Run app.py using below command to start streamlit API.
+
+For detailed model building and prediction API
 ```
-python model.py
+streamlit run app.py --server.maxUploadSize=1028
 ```
-This would create a serialized version of our model into a file model.pkl
+
+For predicton API only
+```
+streamlit run app.py
+```
+
+
 
 2. Run app.py using below command to start Flask API
 ```
