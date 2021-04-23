@@ -39,17 +39,18 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (f
 
 ### Project Structure
 This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+1. model.ipynb - This contains code fot our Machine Learning model to predict restaurant rating based on  data in 'zomato.csv' file.
+2. 
+3. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+4. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
+5. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 
 ### Running the project
-1. Ensure that you are in the project home directory. Run app.py using below command to start streamlit API.
+1. Ensure that you are in the project home directory. Run below command to start streamlit API.
 
 For detailed model building and prediction API
 ```
-streamlit run app.py --server.maxUploadSize=1028
+streamlit run ZomatoRating_2.py --server.maxUploadSize=1028
 ```
 
 For predicton API only
@@ -57,15 +58,9 @@ For predicton API only
 streamlit run app.py
 ```
 
+By default, flask will run on port 8501.
 
-
-2. Run app.py using below command to start Flask API
-```
-python app.py
-```
-By default, flask will run on port 5000.
-
-3. Navigate to URL http://localhost:5000
+2. Navigate to URL http://localhost:8501
 
 You should be able to view the homepage as below :
 ![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
