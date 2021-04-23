@@ -40,7 +40,14 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (f
 This project has four major parts :
 1. model.ipynb - This contains code fot our Machine Learning model to predict restaurant rating based on  data in 'zomato.csv' file.
 2. ZomatoRating_2.py - This contain streamlit API that contains all the process,detailed analysis,model building phases(done in model.ipynb) and predict rating API.
-This API contains Data Preparation,EDA,Feature Engineering,Model Building('MultiLinear','Support Vector','DecisionTree','RandomForest','ExtraTree','GradientBoosting','XGBoost','Artificial Neural Network'),Predict Rating and About us dropdown option.You can select any one of the option at a time .
+This API contains :
+##### Data Preparation
+##### EDA
+##### Feature Engineering
+##### Model Building('MultiLinear','Support Vector','DecisionTree','RandomForest','ExtraTree','GradientBoosting','XGBoost','Artificial Neural Network')
+##### Predict Rating
+##### About us.
+You can select any one of the option at a time to see the result.
 4. app.py - This contains only predict restaurant rating API  that receives restaurant details through GUI or API calls, computes the precited rating based on our model and returns it.
 5. templates - This folder contains the HTML template to allow user to enter restaurant detail and displays the predicted restaurant rating.
 
