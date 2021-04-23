@@ -1,7 +1,7 @@
 # Streamlit-Zomato-Restaurant-rating-Full-model-building-and-prediction
 ![image](https://user-images.githubusercontent.com/67735416/115825253-c2de6780-a426-11eb-963a-82a6dde59252.png)
 ### Introduction
-			Zomato is one of the best online food delivery apps which gives the users the ratings and the reviews on restaurants all over india.These ratings and the Reviews are considered as one of the most important deciding factors which determine how good a restaurant is.
+Zomato is one of the best online food delivery apps which gives the users the ratings and the reviews on restaurants all over india.These ratings and the Reviews are considered as one of the most important deciding factors which determine how good a restaurant is.
 
 We will therefore use the real time Data set with variuos features a user would look into regarding a restaurant. We will be considering Banglore City in this analysis.
 
@@ -31,9 +31,8 @@ In Phase II the recorded data for each restaurant and each category was read and
 
 Acknowledgements The data scraped was entirely for educational purposes only. Note that I don’t claim any copyright for the data. All copyrights for the data is owned by Zomato Media Pvt. Ltd..
 
-        Source: Kaggle
+
        
-        '''
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
