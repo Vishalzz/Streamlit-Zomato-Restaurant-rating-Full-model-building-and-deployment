@@ -31,8 +31,7 @@ In Phase II the recorded data for each restaurant and each category was read and
 
 Acknowledgements The data scraped was entirely for educational purposes only. Note that I don’t claim any copyright for the data. All copyrights for the data is owned by Zomato Media Pvt. Ltd..
 
-
-       
+Source Dataset: Kaggle       
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (for API) installed.
@@ -40,20 +39,19 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and streamlit (f
 ### Project Structure
 This project has four major parts :
 1. model.ipynb - This contains code fot our Machine Learning model to predict restaurant rating based on  data in 'zomato.csv' file.
-2. 
-3. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-4. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-5. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+2. ZomatoRating_2.py - This contain streamlit API that contains all the process,detailed analysis,model building phases(done in model.ipynb) and predict rating API.
+3. app.py - This contains only predict restaurant rating API  that receives restaurant details through GUI or API calls, computes the precited rating based on our model and returns it.
+5. templates - This folder contains the HTML template to allow user to enter restaurant detail and displays the predicted restaurant rating.
 
 ### Running the project
 1. Ensure that you are in the project home directory. Run below command to start streamlit API.
 
-For detailed "model building and prediction" API
+###### For detailed "model building and prediction" API
 ```
 streamlit run ZomatoRating_2.py --server.maxUploadSize=1028
 ```
 
-For "predicton" API only
+###### For "predicton" API only
 ```
 streamlit run app.py
 ```
