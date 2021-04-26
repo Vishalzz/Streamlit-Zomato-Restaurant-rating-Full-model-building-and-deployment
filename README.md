@@ -43,7 +43,7 @@ This project has four major parts :
 This API contains :
 ##### • Data Preparation
 ##### • EDA
-##### • Feature Engineering
+##### • Feature Engineering (handling lot of category variables,log transformation)
 ##### • Model Building('MultiLinear','Support Vector','DecisionTree','RandomForest','ExtraTree','GradientBoosting','XGBoost','Artificial Neural Network')
 ##### • Predict Rating
 ##### • About us.
